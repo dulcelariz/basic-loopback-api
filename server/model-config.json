@@ -12,5 +12,25 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Student": {
+    "dataSource": null,
+    "public": true
+  },
+  "Course": {
+    "dataSource": null,
+    "public": true
+  },
+  "Instructor": {
+    "dataSource": null,
+    "public": true
+  },
+  "Registration": {
+    "dataSource": null,
+    "public": true
+  },
+  "CourseRating": {
+    "dataSource": null,
+    "public": true
   }
 }
