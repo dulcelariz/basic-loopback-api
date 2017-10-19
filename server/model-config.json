@@ -32,5 +32,9 @@
   "registrations": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "administrators": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
