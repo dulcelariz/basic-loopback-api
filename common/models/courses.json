@@ -20,7 +20,25 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "registrations": {
+      "type": "hasMany",
+      "model": "registrations",
+      "foreignKey": "IdCourse",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "courseRatings": {
+      "type": "hasMany",
+      "model": "courseRatings",
+      "foreignKey": "IdCourse",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "courseRatings"
+    }
+  },
   "acls": [],
   "methods": {}
 }

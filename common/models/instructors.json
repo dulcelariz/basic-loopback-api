@@ -20,7 +20,17 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "courses": {
+      "type": "hasMany",
+      "model": "courses",
+      "foreignKey": "IdInstructor",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "courses"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -21,15 +21,15 @@
     "dataSource": "mongoDs",
     "public": true
   },
-  "registrations": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
   "courseRatings": {
     "dataSource": "mongoDs",
     "public": true
   },
   "Student": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "registrations": {
     "dataSource": "mongoDs",
     "public": true
   }

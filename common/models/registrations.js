@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(registrations) {
+module.exports = function(Registrations) {
 
 };

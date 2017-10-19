@@ -24,7 +24,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "registrations": {
+      "type": "hasMany",
+      "model": "registrations",
+      "foreignKey": "IdStudent",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
