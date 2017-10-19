@@ -1,6 +1,5 @@
 {
-  "name": "Instructor",
-  "plural": "Instructors",
+  "name": "courses",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,11 +10,11 @@
       "type": "string",
       "required": true
     },
-    "email": {
+    "instructor": {
       "type": "string",
       "required": true
     },
-    "bio": {
+    "description": {
       "type": "string",
       "required": true
     }

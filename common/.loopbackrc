@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "mongodb": {
+            "host": "127.0.0.1",
+            "database": "newDB",
+            "username": "",
+            "password": "",
+            "port": 27017
+        }
+    },
+    "test": {
+        "mongodb": {
+            "host": "127.0.0.1",
+            "database": "newDB",
+            "username": "",
+            "password": "",
+            "port": 27017
+        }
+    }
+}

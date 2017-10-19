@@ -1,6 +1,5 @@
 {
   "name": "Student",
-  "plural": "Students",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -16,7 +15,8 @@
       "required": true
     },
     "major": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "password": {
       "type": "string",

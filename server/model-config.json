@@ -13,24 +13,24 @@
       "./mixins"
     ]
   },
+  "courses": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "instructors": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "registrations": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "courseRatings": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
   "Student": {
-    "dataSource": null,
-    "public": true
-  },
-  "Course": {
-    "dataSource": null,
-    "public": true
-  },
-  "Instructor": {
-    "dataSource": null,
-    "public": true
-  },
-  "Registration": {
-    "dataSource": null,
-    "public": true
-  },
-  "CourseRating": {
-    "dataSource": null,
+    "dataSource": "mongoDs",
     "public": true
   }
 }

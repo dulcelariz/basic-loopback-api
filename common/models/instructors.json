@@ -1,17 +1,20 @@
 {
-  "name": "CourseRating",
-  "plural": "CourseRatings",
+  "name": "instructors",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "course": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "rating": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "bio": {
       "type": "string",
       "required": true
     }

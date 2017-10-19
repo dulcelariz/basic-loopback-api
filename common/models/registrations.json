@@ -1,21 +1,16 @@
 {
-  "name": "Course",
-  "plural": "Courses",
+  "name": "registrations",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "student": {
       "type": "string",
       "required": true
     },
-    "instructor": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
+    "course": {
       "type": "string",
       "required": true
     }

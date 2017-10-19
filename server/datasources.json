@@ -1,12 +1,12 @@
 {
   "mongoDs": {
-    "host": "demo.strongloop.com",
+    "host": "127.0.0.1",
     "port": 27017,
-    "url": "",
-    "database": "getting_started_intermediate",
-    "password": "L00pBack",
+    "url": false,
+    "database": "newDB",
+    "password": "",
     "name": "mongoDs",
-    "user": "demo",
+    "user": "",
     "connector": "mongodb"
   }
 }
